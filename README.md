@@ -41,8 +41,10 @@ Once the form is submitted, you will receive an email with access to the data an
 ## Contact
 
 Daniel Parres - aerfai.contest.mhtr24@gmail.com
+![aerfai-logo]()
+![prhlt-logo]()
 
 <p align="center">
-  <img src="https://github.com/dparres/AERFAI-Contest-Multilingual-Handwritten-Text-Recognition/assets/114649578/10295cf7-cbbf-4b66-abf1-4127abb9e932" alt="Descripción de la primera imagen" width="35%" />
-  <img src="https://github.com/dparres/AERFAI-Contest-Multilingual-Handwritten-Text-Recognition/assets/114649578/a7f60bbd-3567-4f46-93df-89a5756a7d47" alt="Descripción de la segunda imagen" width="25%" />
+  <img src="https://github.com/dparres/AERFAI-Contest-Multilingual-Handwritten-Text-Recognition/assets/114649578/4b6bfd22-3e5a-478e-878c-2a6487234b29" alt="Descripción de la primera imagen" width="35%" />
+  <img src="https://github.com/dparres/AERFAI-Contest-Multilingual-Handwritten-Text-Recognition/assets/114649578/b4d80375-ec95-47d1-aeb8-7fc2b9abc90e" alt="Descripción de la segunda imagen" width="25%" />
 </p>
