@@ -1,0 +1,21 @@
+img_dirs: [data]
+img_list: va.lst
+syms: symb.txt
+common:
+  model_filename: m7
+  train_path: EXP
+logging:
+  filepath: CMs-crnn.log
+  level: INFO
+  to_stderr_level: INFO
+  overwrite: true
+decode:
+  include_img_ids: true
+  separator: " "
+  segmentation: null
+  input_space: '<space>'
+  output_space: ' '
+data:
+  batch_size: 1
+trainer:
+  gpus: 1

@@ -1,0 +1,26 @@
+syms: symb.txt
+save_model: true
+adaptive_pooling: avgpool-16
+common:
+  model_filename: m7
+  train_path: EXP/  
+crnn:
+  cnn_activation: [LeakyReLU,LeakyReLU,LeakyReLU,LeakyReLU]
+  cnn_batchnorm: [true,true,true,true]
+  cnn_dilation: [1,1,1,1]
+  cnn_dropout: [0,0,0,0]
+  cnn_kernel_size: [3,3,3,3]
+  cnn_num_features: [12,24,48,96]
+  cnn_poolsize: [[2,2],[2,2],[0,0],[0,0]]
+  cnn_stride: [1,1,1,1]
+  use_masks: true
+  rnn_type: LSTM
+  rnn_layers: 3
+  rnn_units: 256
+  rnn_dropout: 0.5
+  lin_dropout: 0.5
+  num_input_channels: 1
+logging:
+  filepath: model.log
+  overwrite: true
+  to_stderr_level: INFO
